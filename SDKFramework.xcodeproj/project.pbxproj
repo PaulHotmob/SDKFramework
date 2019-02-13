@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		983A19EF2214183D0002CFDC /* SDKFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 983A19ED2214183D0002CFDC /* SDKFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		983A19F82214299D0002CFDC /* SDKPodFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A19F72214299D0002CFDC /* SDKPodFramework.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		983A19EA2214183D0002CFDC /* SDKFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDKFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		983A19ED2214183D0002CFDC /* SDKFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKFramework.h; sourceTree = "<group>"; };
 		983A19EE2214183D0002CFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		983A19F72214299D0002CFDC /* SDKPodFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKPodFramework.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				983A19ED2214183D0002CFDC /* SDKFramework.h */,
+				983A19F72214299D0002CFDC /* SDKPodFramework.swift */,
 				983A19EE2214183D0002CFDC /* Info.plist */,
 			);
 			path = SDKFramework;
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					983A19E92214183D0002CFDC = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				983A19F82214299D0002CFDC /* SDKPodFramework.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		983A19F32214183D0002CFDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -277,6 +283,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hot-mob.SDKFramework";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +292,7 @@
 		983A19F42214183D0002CFDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
