@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 s.platform = :ios
 s.ios.deployment_target = '9.0'
 s.name = "SDKFramework"
-s.summary = "SDKFramework lets a user select an ice cream flavor."
+s.summary = "SDKFramework Testing"
 s.requires_arc = true
 
 # 2
