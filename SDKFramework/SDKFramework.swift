@@ -22,7 +22,7 @@ public class SDKFramework: NSObject {
         print("print String: \(msg)")
     }
     
-    open class func new(_ msg: String){
+    open class func changeFunctionNamePrint(_ msg: String){
         print("print String: \(msg)")
     }
 }
