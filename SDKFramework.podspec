@@ -8,7 +8,7 @@ s.summary = "SDKFramework lets a user select an ice cream flavor."
 s.requires_arc = true
 
 # 2
-s.version = "0.1.0"
+s.version = "0.1.2"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -29,10 +29,10 @@ s.source = { :git => "https://github.com/PaulHotmob/SDKFramework.git",
 #s.dependency 'MBProgressHUD', '~> 1.1.0'
 
 # 8
-s.source_files = "SDKFramework/**/*.{swift}"
+s.source_files = "SDKFramework/**/*.{h,m,swift}"
 
 # 9
-s.resources = "SDKFramework/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+#s.resources = "SDKFramework/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "4.2"
