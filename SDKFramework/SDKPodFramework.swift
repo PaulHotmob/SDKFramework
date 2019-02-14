@@ -8,7 +8,7 @@
 
 import Foundation
 
-open class SDKFramework: NSObject {
+public class SDKFramework: NSObject {
     
     
     /*
