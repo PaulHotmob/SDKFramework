@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		983A19EF2214183D0002CFDC /* SDKFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 983A19ED2214183D0002CFDC /* SDKFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		983A19F82214299D0002CFDC /* SDKPodFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A19F72214299D0002CFDC /* SDKPodFramework.swift */; };
+		983A19F82214299D0002CFDC /* SDKFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A19F72214299D0002CFDC /* SDKFramework.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		983A19EA2214183D0002CFDC /* SDKFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDKFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		983A19ED2214183D0002CFDC /* SDKFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKFramework.h; sourceTree = "<group>"; };
 		983A19EE2214183D0002CFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		983A19F72214299D0002CFDC /* SDKPodFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKPodFramework.swift; sourceTree = "<group>"; };
+		983A19F72214299D0002CFDC /* SDKFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKFramework.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				983A19ED2214183D0002CFDC /* SDKFramework.h */,
-				983A19F72214299D0002CFDC /* SDKPodFramework.swift */,
+				983A19F72214299D0002CFDC /* SDKFramework.swift */,
 				983A19EE2214183D0002CFDC /* Info.plist */,
 			);
 			path = SDKFramework;
@@ -134,7 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				983A19F82214299D0002CFDC /* SDKPodFramework.swift in Sources */,
+				983A19F82214299D0002CFDC /* SDKFramework.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
